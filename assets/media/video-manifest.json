@@ -1,0 +1,173 @@
+{
+  "source": {
+    "path": "C:\\Users\\Rustam\\Desktop\\Tezeri\\Скриншоты и видео из программы\\Видео из программы\\2026-10-15 17-20-02.mp4",
+    "duration_seconds": 1487.83,
+    "width": 1724,
+    "height": 1080,
+    "fps": 60,
+    "bytes": 202144703
+  },
+  "processing": {
+    "source_unchanged": true,
+    "crop_pixels": {
+      "x": 42,
+      "y": 142,
+      "width": 1680,
+      "height": 906
+    },
+    "removed_regions": [
+      "Browser top chrome",
+      "Browser left rail",
+      "Windows taskbar",
+      "Application account header"
+    ],
+    "preserved": [
+      "Main application sidebar",
+      "Real workspace and settings",
+      "Original timing and pointer movements"
+    ],
+    "codec": "H.264",
+    "pixel_format": "yuv420p",
+    "output_fps": 30,
+    "faststart": true,
+    "audio": false,
+    "maxrate": "4M",
+    "crf": 22
+  },
+  "clips": [
+    {
+      "id": "tezeri-3d-materials",
+      "description": "Actual balcony 3D interface: wall material changes through the side panel, followed by the rendered room and a changed viewing angle.",
+      "source_start_seconds": 170.0,
+      "duration_seconds": 22.0,
+      "poster_offset_seconds": 19.5,
+      "privacy_masks_source_pixels": [],
+      "source_start": "02:50.00",
+      "source_end": "03:12.00",
+      "source_end_seconds": 192.0,
+      "video": "tezeri-3d-materials.mp4",
+      "poster": "tezeri-3d-materials.jpg",
+      "width": 1600,
+      "height": 862,
+      "fps": 30,
+      "video_bytes": 2420333,
+      "poster_bytes": 200413,
+      "sha256": "5df0d1d1d2d459e8999a5a86eaa47780f74b371c1d83bf8b31969831dca3dfa3"
+    },
+    {
+      "id": "tezeri-furniture-materials",
+      "description": "Actual furniture editor: a wood finish changes to a dark finish on the L-shaped cabinet geometry. Continuous source segment, no synthetic motion.",
+      "source_start_seconds": 683.0,
+      "duration_seconds": 14.0,
+      "poster_offset_seconds": 11.8,
+      "privacy_masks_source_pixels": [
+        {
+          "x": 226,
+          "y": 148,
+          "width": 122,
+          "height": 36,
+          "reason": "Customer name chip",
+          "color": "#161621"
+        },
+        {
+          "x": 650,
+          "y": 148,
+          "width": 112,
+          "height": 36,
+          "reason": "Customer name in editor title",
+          "color": "#191923"
+        }
+      ],
+      "source_start": "11:23.00",
+      "source_end": "11:37.00",
+      "source_end_seconds": 697.0,
+      "video": "tezeri-furniture-materials.mp4",
+      "poster": "tezeri-furniture-materials.jpg",
+      "width": 1600,
+      "height": 862,
+      "fps": 30,
+      "video_bytes": 401224,
+      "poster_bytes": 56142,
+      "sha256": "2b43f526ba5071dafda6199d413a3db0dcf3b9c357acfa9a96f71dc18f878529"
+    }
+  ],
+  "qa_contact_sheet": "C:\\Users\\Rustam\\Documents\\ChatGPT\\Продажа ОС\\tezeri-site\\output\\media-integration-2026-10-15\\video-inspection\\contact-sheet-chosen-clips.jpg",
+  "qa": {
+    "visual_review": "Reviewed 16 overview frames, targeted source contact sheets, 16 final exported frames, and both full-size poster images. Browser chrome, taskbar, account header and customer names are absent from published assets.",
+    "full_decode": "Both MP4s were fully decoded to null using FFmpeg; exit code 0 for each.",
+    "files": [
+      {
+        "file": "tezeri-3d-materials.mp4",
+        "mp4_atoms": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "size": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "size": 8734
+          },
+          {
+            "type": "free",
+            "offset": 8766,
+            "size": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 8774,
+            "size": 2411559
+          }
+        ],
+        "faststart_verified": true,
+        "manifest_hash_matches": true,
+        "size_under_12mb": true,
+        "poster_dimensions_verified": [
+          1600,
+          862
+        ],
+        "full_ffmpeg_decode_exit_code": 0,
+        "decoded_frames": 660,
+        "codec_verified": "h264 (High), yuv420p, 30 fps, 1600x862",
+        "audio_streams_verified": 0
+      },
+      {
+        "file": "tezeri-furniture-materials.mp4",
+        "mp4_atoms": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "size": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "size": 5862
+          },
+          {
+            "type": "free",
+            "offset": 5894,
+            "size": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 5902,
+            "size": 395322
+          }
+        ],
+        "faststart_verified": true,
+        "manifest_hash_matches": true,
+        "size_under_12mb": true,
+        "poster_dimensions_verified": [
+          1600,
+          862
+        ],
+        "full_ffmpeg_decode_exit_code": 0,
+        "decoded_frames": 420,
+        "codec_verified": "h264 (High), yuv420p, 30 fps, 1600x862",
+        "audio_streams_verified": 0
+      }
+    ]
+  }
+}
